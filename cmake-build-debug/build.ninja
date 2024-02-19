@@ -55,6 +55,12 @@ build CMakeFiles/Tarea2SmartPointers.dir/main.cpp.obj: CXX_COMPILER__Tarea2Smart
   OBJECT_DIR = CMakeFiles\Tarea2SmartPointers.dir
   OBJECT_FILE_DIR = CMakeFiles\Tarea2SmartPointers.dir
 
+build CMakeFiles/Tarea2SmartPointers.dir/Character.cpp.obj: CXX_COMPILER__Tarea2SmartPointers_unscanned_Debug C$:/Users/cors9/OneDrive/Documentos/CETI/ING/2Semestre/POO/Tarea2SmartPointers/Character.cpp || cmake_object_order_depends_target_Tarea2SmartPointers
+  DEP_FILE = CMakeFiles\Tarea2SmartPointers.dir\Character.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Tarea2SmartPointers.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tarea2SmartPointers.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Tarea2SmartPointers
@@ -63,7 +69,7 @@ build CMakeFiles/Tarea2SmartPointers.dir/main.cpp.obj: CXX_COMPILER__Tarea2Smart
 #############################################
 # Link the executable Tarea2SmartPointers.exe
 
-build Tarea2SmartPointers.exe: CXX_EXECUTABLE_LINKER__Tarea2SmartPointers_Debug CMakeFiles/Tarea2SmartPointers.dir/main.cpp.obj
+build Tarea2SmartPointers.exe: CXX_EXECUTABLE_LINKER__Tarea2SmartPointers_Debug CMakeFiles/Tarea2SmartPointers.dir/main.cpp.obj CMakeFiles/Tarea2SmartPointers.dir/Character.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Tarea2SmartPointers.dir

@@ -20,7 +20,7 @@ public:
 
     // Destructor, aqui se borra el puntero automaticamente cuando la variable sale de ambito
     ~SmartPtr() {
-        cout << "deleting pointer" << endl;
+        cout << "=====================" << endl << "deleting pointer" << endl << "=====================" << endl;
         delete (ptr);
     }
 

@@ -1,4 +1,4 @@
 C:\Users\cors9\OneDrive\Documentos\CETI\ING\CLion-2023.3.4.win\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/cors9/OneDrive/Documentos/CETI/ING/CLion-2023.3.4.win/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\cors9\OneDrive\Documentos\CETI\ING\2Semestre\POO\Tarea2SmartPointers -B C:\Users\cors9\OneDrive\Documentos\CETI\ING\2Semestre\POO\Tarea2SmartPointers\cmake-build-debug
--- Configuring done (0.1s)
+-- Configuring done (0.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/cors9/OneDrive/Documentos/CETI/ING/2Semestre/POO/Tarea2SmartPointers/cmake-build-debug
