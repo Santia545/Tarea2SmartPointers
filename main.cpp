@@ -24,6 +24,7 @@ int main() {
     cout << "Imprimiendo las caracteristicas del caracter" << endl << *ptr << endl
          << "direccion del objeto que guarda el puntero: " << &ptr << " direccion del puntero real: "
          << ptr.operator->() << endl;
+    cout << ptr->testMethod() << endl;
     return 0;
 }
 

@@ -17,3 +17,7 @@ std::ostream& operator<<(std::ostream& os, const Character& obj) {
     os << "Name: " + obj.name + "\nHealth: " + to_string(obj.health) + "\nAttack: " + to_string(obj.attack) + "\nDefense: " + to_string(obj.defense) + "\nSpeed: " + to_string(obj.speed);
     return os;
 }
+
+string Character::testMethod() {
+    return "test";
+}

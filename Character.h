@@ -16,6 +16,7 @@ protected:
     int defense;
     int speed;
 public:
+    string testMethod();
     Character(string _name, int _health, int _attack, int _defense, int _speed);
     //No entendí esto, solo se que es necesario para poder usar el cout con mi objeto sin especificar que propiedades imprimir
     // Friend function that overloads the << operator.
