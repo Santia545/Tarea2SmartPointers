@@ -20,7 +20,7 @@ int main() {
     }
     printSomeStuff();
     //Creando un smartpointer dentro del ambito de la funcion main, que se destruira al salir de esta
-    SmartPtr<Character> ptr(new Character("Cesar", 100, 10, 4, 10));
+    SmartPtr<Character> ptr(new Character("Cesar", 100, 20, 10, 20));
     cout << "Imprimiendo las caracteristicas del caracter" << endl << *ptr << endl
          << "direccion del objeto que guarda el puntero: " << &ptr << " direccion del puntero real: "
          << ptr.operator->() << endl;
